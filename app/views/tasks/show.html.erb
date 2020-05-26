@@ -1,5 +1,8 @@
-<h1><%=@task.title%></h1>
+<h1><%= @task.title %></h1>
 
-<h2><%=@task.completed%></h2>
+<h2><%= @task.completed %></h2>
 
-<h3><%=@task.details%></h3>
+<h3><%= @task.details %></h3>
+
+
+<p><%= link_to 'go back to the tasks list', tasks_path %></p>
